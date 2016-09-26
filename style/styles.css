@@ -3,6 +3,102 @@ overall default styles
 *********************/
 
 body {
-  
+  font-family: 'Exo 2', sans-serif;
 
+}
+
+
+/*********header*********/
+header {
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+   position: absolute;
+   top: 100px;
+   left: 590px;
+   text-decoration:none;
+   border:0;
+   width: 80%;
+   margin: 0 auto;
+   padding : 5%;
+   background : url(../assets/bp.svg) no-repeat;
+}
+
+h1 a {
+   display: block;
+   height: 113px;
+   text-indent: -9999px;
+}
+
+header ul {
+  position: relative;
+  top: 200px;
+  align-items: center;
+  width: 100%;
+  margin: 0 25% 0 25%;
+}
+
+header li {
+  display: inline;
+  margin: 0 10%  20%;
+  font-size: 1.5rem;
+}
+
+header li a {
+    text-decoration: none;
+}
+
+header div {
+  position: relative;
+  top: 300px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*******mid-section*****/
+
+section {
+  background-color: #CCE4E9;
+  width: 100%;
+  height: 750px;
+  border: 100px 0 100px 0;
+}
+
+section div {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10%;
+  border: 10px solid #272240;
+  width: 20%;
+  height: 250px;
+}
+
+section div img {
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+
+/***********footer**********/
+
+footer {
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+footer ul {
+  text-align: right;
+}
+footer li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+footer a {
+  text-decoration: none;
 }
