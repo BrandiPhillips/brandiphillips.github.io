@@ -6,3 +6,23 @@ body {
   font-family: 'Exo 2', sans-serif;
 
 }
+
+article {
+  display: block;
+  width: 85%;
+  margin: 20px 10px;
+}
+
+article img {
+  float: left;
+  clear: both;
+}
+
+article title {
+  display: inline-block;
+  clear:both;
+}
+
+article p {
+  display: inline-block;
+}
